@@ -27,21 +27,6 @@
                     </nav>
                 </nav>
 
-                <nav class="dropdown">
-                    {% if page.url == "/tech/projects/" %}
-                        <a class="current dropdown-landing" id="geek-landing" href="{{ page.url | prepend: site.baseurl }}">tech</a>
-                    {% else %}
-                        <a class="dropdown-landing" id="geek-landing" href="{{ "/tech/projects/" | prepend: site.baseurl }}" >tech</a>
-                    {% endif %}
-
-                    <nav class="nav-list" id="geek-menu">
-
-                        <ul>
-                            {% include tech-submenu.html %} 
-                        </ul>
-
-                    </nav>
-                </nav>
 
                 {% if page.url == "/blog/" %}
                     <a class="current" id="blog-landing" href="/blog/index.html">blog</a>
@@ -63,9 +48,7 @@
 <div class="banner music centered">
     <p class="big"><span class="emoji">📣</span> ANNOUNCEMENTS</p>
     <ul> 
-        <li><span class="emoji">🎵⛈️</span> I have NEW MUSIC out now on Bandcamp! <span class="emoji">⛈️🎵</span>
-        <br/>
-        Listen to <a href="https://dbaker.bandcamp.com/album/R-I-T-E-S" target="_blank">RITES</a>
+        <li><span class="emoji">🎵⛈️</span>NEW MUSIC: <a href="https://dbaker.bandcamp.com/album/R-I-T-E-S" target="_blank">Listen on Bandcamp</a> <span class="emoji">⛈️🎵</span>
         </li>
         <li><span class="emoji">🧑</span> Name change: I now go by the name of Cadence <br/>
         (you may have known me as Dorothea Baker)</li>

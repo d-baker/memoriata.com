@@ -19,10 +19,25 @@ permalink: /music/audio/
 
     <div class="avblock col2" id="original-compositions">
         <h2>standalone works</h2>
+        
+        <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=3639363582/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://memoriata.bandcamp.com/track/r-i-t-e-s">R I T E S by memoriata</a></iframe>
+
+        <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=2755964082/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://memoriata.bandcamp.com/track/the-wheel-of-fortune">The Wheel of Fortune by memoriata</a></iframe>
+
+        <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=777464261/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://memoriata.bandcamp.com/track/elegy">Elegy by memoriata</a></iframe>
+
+        <iframe style="border: 0; width: 100%; height: 208px;" src="https://bandcamp.com/EmbeddedPlayer/album=3584812082/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/" seamless><a href="https://memoriata.bandcamp.com/album/songs-to-brigid">Songs to Brigid by memoriata</a></iframe>
+
+        <div class="spacer"></div>
+
         {% include playlist.html playlist_data=site.data.audio-originalcomps permalink_dir="originalcomps" %}
     </div>
 
-    <div class="clearfix"></div>
+
+    <div class="avblock col1" id="piano-recordings">
+        <h2>piano recordings</h2>
+        {% include playlist.html playlist_data=site.data.audio-pianorecs permalink_dir="pianorecs" %}
+    </div>
 
     <div class="avblock col1" id="playlists">
         <h2>playlists</h2>
@@ -31,10 +46,6 @@ permalink: /music/audio/
         </ul>
     </div>
 
-    <div class="avblock col2" id="piano-recordings">
-        <h2>piano recordings</h2>
-        {% include playlist.html playlist_data=site.data.audio-pianorecs permalink_dir="pianorecs" %}
-    </div>
 
 
 {% include back-to-top.html %}
