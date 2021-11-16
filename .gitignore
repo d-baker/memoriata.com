@@ -6,3 +6,5 @@ assets/fonts
 assets/js/jquery*
 .sass-cache
 .directory
+.bundle
+vendor

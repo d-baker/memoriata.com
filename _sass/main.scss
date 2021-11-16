@@ -66,9 +66,12 @@ main, .header-wrapper, footer p {
         text-align: center;
     }
 
-    p {
+    p, li {
         padding: .5rem 0 .5rem 0;
         font-size: 1rem;
+        font-family: Helvetica, Arial, sans-serif;
+        list-style: none;
+
         &.big {
             font-size: 1.25rem;
             font-weight: bold;
@@ -83,6 +86,7 @@ main, .header-wrapper, footer p {
             color: white;
         }
     }
+
 
 }
 
